@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--fuente-->
+    <link href="https://fonts.cdnfonts.com/css/breathing" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--fin fuente-->
+    <!--<link rel="preload" href="/normalize.css" as="style">
+    //<link rel="stylesheet" href="/normalize.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="preload" href="/CSS/styles.css" as="style">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Brenda Yañez</title>
+</head>
+<body>
+    <header>
+        <h2>Mi portfolio</h2>
+    </header>
+
+    <nav class="nav-contenedor">
+        <a href="/inicio">Inicio</a>
+        <a href="#aboutme">Sobre mi</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contactme">Contacto</a>
+    </nav>
+
+
+    <hero class="hero-contenedor">
+        <div class="hero-imagen">
+            <img src="/IMGs/sticker.png" alt="imagen de bienvenida">
+        </div>
+        
+        <div class="hero-texto">
+            <h1 class="titulo">Hola! Mi nombre es Brenda...</h1>
+            <p>Soy programadora y community manager</p>
+           
+            <div>
+                <input type="button" class="boton" value="Descarga mi CV"/>
+                <input type="button" class="boton" value="Trabajemos juntos!"/>
+           </div> 
+    
+        </div>
+    
+    </hero>
+
+    <main class="contenedor">
+        <section class="contenedor-sobremi" id="aboutme">
+
+            <div class="texto-sobremi">
+                <h2 class="subtitulo">Sobre mi</h2>
+                <p>Trabajo como freelancer desde 2021, y actualmente me desempeño como social media manager (aunque a veces también creo contenido).</p>
+                <p>También soy desarrolladora full stack, pero me siento más cómoda, en el área del front-end.</p>
+            </div>
+
+            <div class="imagen-sobremi">
+                <img src="IMGs/Diseño sin título.png" alt="Auto imagen">
+            </div>
+
+        </section>
+
+        <br><br>
+        
+        <section id="skills">
+            <h2 class="subtitulo">Skills y educación</h2>
+            <div class="contenedor-skill">
+                <button class="tarjeta boton skills">
+                    <h3 class="subtitulo-skills">Skills</h3>
+                    <div class="imagenes-tarjeta">
+    
+                        <div class="imagen-tarjeta">
+                            <p class="texto-tarjeta">Creacion de contenido</p>
+                            <img src="/IMGs/skills/camara-fotografica.png" alt="">
+                        </div>
+                            
+                        <div class="imagen-tarjeta">
+                            <p class="texto-tarjeta">Planicifacion de contenido</p>
+                            <img src="/IMGs/skills/plan-de-negocios.png" alt="">
+                        </div>
+                            
+                        <div class="imagen-tarjeta">
+                            <p class="texto-tarjeta">Edicion de fotos y videos</p>
+                            <img src="/IMGs/skills/edicion-de-pelicula.png" alt="">
+                        </div>
+                            
+                        <div class="imagen-tarjeta">
+                            <p class="texto-tarjeta">Copywriting</p>
+                            <img src="/IMGs/skills/escribiendo.png" alt="">
+                        </div>
+                            
+                        <div class="imagen-tarjeta">
+                            <p class="texto-tarjeta">Meta Ads</p>
+                            <img src="/IMGs/skills/publicidad-digital.png" alt="">
+                        </div>
+                                                
+                        <div class="tarjeta-herramientas">   
+                            <p class="texto-skills">HERRAMIENTAS</p>     
+                            <div class="herramientas-contenedor">
+                                <div class="imagen-tarjeta">
+                                    <img src="/IMGs/R (1).png" alt="">
+                                </div>
+                                
+                                <div class="imagen-tarjeta">
+                                    <img src="/IMGs/OIP.jfif" alt="">
+                                </div>
+                                
+                                <div class="imagen-tarjeta">
+                                    <img src="/IMGs/R.png" alt="">
+                                </div>
+                            </div>  
+                        </div>  
+                    </div>
+                </button>
+            
+    
+                <button class="tarjeta boton educacion">
+                    <h3 class="subtitulo-educacion">Educación</h3>
+                    
+                    <div class="contenido-tarjeta">
+                        <h4>Universidad Tecnológica Nacional</h4>
+                        <p class="texto-tarjeta">2023 - Presente</p>
+                        <p class="texto-tarjeta">Tecnicatura Universitaria en Programacion</p>
+                    </div>
+                    <br>
+                    <div class="contenido-tarjeta">
+                        <h4>Universidad de La Punta | Argentina Programa 4.0</h4>
+                        <p class="texto-tarjeta">Dic 2022 - Feb 2023</p>
+                        <p class="texto-tarjeta">Introducción a la Programación</p>
+                    </div>
+                    <br>
+                    <div class="contenido-tarjeta">
+                        <h4>Platzi</h4>
+                        <p class="texto-tarjeta">Dic 2023 - Enero 2024</p>
+                        <p class="texto-tarjeta">Curso de Community Manager</p>
+                    </div>
+                    <br>
+                    <div class="contenido-tarjeta">
+                        <h4>Google Activate</h4>
+                        <p class="texto-tarjeta">Presente</p>
+                        <p class="texto-tarjeta">Curso de Fundamentos de Marketing Digital</p>
+                    </div>                
+                </button>
+    
+                <button class="tarjeta boton educacion">
+                    <h3 class="subtitulo-tecnologias">Tecnologías</h3>
+                    <div class="imagenes-tarjeta">
+                        
+                        <div class="imagen-tarjeta">
+                            <img src="/IMGs/Tecnologias/174854.png" alt="">
+                        </div>
+    
+                        <div class="imagen-tarjeta">
+                            <img src="/IMGs/Tecnologias/css-3.png" alt="">
+                        </div> 
+                        
+                        <div class="imagen-tarjeta">
+                            <img src="/IMGs/Tecnologias/javascript-js-icon-2048x2048-nyxvtvk0.png" alt="">
+                        </div>  
+          
+                        <div class="imagen-tarjeta">
+                            <img src="/IMGs/Tecnologias/images.jpg" alt="">
+                         </div> 
+    
+                        <div class="imagen-tarjeta">
+                            <img src="/IMGs/Tecnologias/programming-language-3d-icon-illustration-260nw-2174501027.jpg" alt="">
+                        </div> 
+    
+                        <div class="imagen-tarjeta">
+                            <img src="/IMGs/Tecnologias/5968282.png" alt="">
+                        </div> 
+    
+                        <div class="imagen-tarjeta">
+                           <img src="/IMGs/Tecnologias/1822899.png" alt="">
+                        </div> 
+                        
+                        <div class="tarjeta-tecnologias">
+                            <p class="texto-tecnologias">Frameworks</p>
+                            <div class="frameworks-contenedor">
+                                <div class="imagen-tarjeta">
+                                    <img src="/IMGs/Tecnologias/bootsrap.jpg" alt="">
+                                </div>
+        
+                                <div class="imagen-tarjeta">
+                                    <img src="/IMGs/Tecnologias/spring-boot-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        
+    
+                    </div>
+    
+                </button>
+            </div>
+        </section>
+        
+        <br><br>
+        
+        <section id="tranding" >
+                
+            <h2 class="subtitulo" id="proyectos">Mis proyectos</h2>
+
+            <div class="container" >
+                <h3 class="text-center-1 section-subheading">Community Manager</h3>
+            </div>
+
+            <div class="container">
+                <h1 class="text-center section-heading">Kidu Dental S.A</h1>
+                <h3>Distribuidora de insumos de ortodoncia e implantes dentales</h3>
+                
+                <div class="contenido">
+                    <div class="texto">
+                        <p class="parrafo">Kidu Dental S.A es una distribuidora de insumos de ortodoncia y de implantes. Es una empresa familiar que buscaba humanizar su marca y así poder llegar a un público más amplio a lo largo de Argentina.</p>
+            
+                        <h3 class="subtitulo-kidu">Tareas que realicé</h3>
+                        <ul class="items-community">
+                            <li>Redacción de publicaciones</li>
+                            <li>Diseño de placas para posteos e historias</li>
+                            <li>Edición de videos</li>
+                            <li>Diseño de portadas para destacadas</li>
+                            <li>Monitoreo y análisis de métricas de redes sociales</li>
+                        </ul>
+
+                        <h3>Diseño de destacadas</h3>
+                        <div class="destacadas">
+                            <img src="/IMGs/kidu/Destacada - Contacto.png" alt="Tranding">
+                            <img src="/IMGs/kidu/Destacada - Productos.png" alt="Tranding">
+                            <img src="/IMGs/kidu/Destacada - ¿QUienes Somos.png" alt="Tranding">
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <div class="imagen-kidu">
+                            <img src="/IMGs/kidu/kidu celular.png" alt="Perfil de instagram">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="swiper tranding-slider">
+
+                    <!--kidu-->
+                    <div class="swiper-wrapper">
+                        <!-- Slide-start -->
+                        <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                                <img src="/IMGs/kidu/1.png" alt="Tranding">
+                                </div>
+                            </div>
+                        <!-- Slide-end -->
+
+                        <!-- Slide-start -->
+                        <div class="swiper-slide tranding-slide">
+
+                            <div class="tranding-slide-img">
+                                <img src="/IMGs/kidu/2.png" alt="Tranding">
+                            </div>
+                        </div>
+                        <!-- Slide-end -->
+
+                        <!-- Slide-start -->
+                        <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                                <img src="/IMGs/kidu/22_4 - Carrusel (3).png" alt="Tranding">
+                            </div>
+                        </div>
+                        <!-- Slide-end -->
+
+                        <!-- Slide-start -->
+                        <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                                <img src="IMGs/kidu//ANTES.png" alt="Tranding">
+                            </div>   
+                        </div>
+                        <!-- Slide-end -->
+                        
+                        <!-- Slide-start -->
+                        <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                                <img src="IMGs/kidu/Ligaduras (1).png" alt="Tranding">
+                            </div>
+                        </div>
+                        <!-- Slide-end -->  
+                    </div>
+        
+                    <div class="tranding-slider-control">
+                        <div class="swiper-button-prev slider-arrow">
+                            <ion-icon name="arrow-back-outline"></ion-icon>
+                        </div>
+
+                        <div class="swiper-button-next slider-arrow">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!--OLYMPIA-->
+                <div class="container">
+                    <h1 class="text-center section-heading">Olympia</h1>
+                    <h3>Showroom de indumentaria femenina</h3>
+
+                    <div class="contenido">
+                        <div class="texto">
+                            <p class="parrafo">Olympia es un showroom de indumentaria femenina dedicado a la venta online. Se inspira en el concepto de “clean girl”. Ofrece prendas atemporales y ocasionalmente en tendencia.</p>
+                
+                            <h3 class="subtitulo-kidu">Tareas que realicé</h3>
+                            <ul class="items-community">
+                                <li>Redacción de publicaciones</li>
+                                <li>Edición de fotos y videos</li>
+                                <li>Diseño de portadas para destacadas</li>
+                                <li>Monitoreo y análisis de métricas de redes sociales</li>
+                            </ul>
+
+                            <h3>Diseño de destacadas</h3>
+                            <div class="destacadas">
+                                <img src="/IMGs/olympia/1.png" alt="Tranding">
+                                <img src="/IMGs/olympia/2.png" alt="Tranding">
+                                <img src="/IMGs/olympia/3.png" alt="Tranding">
+                                <img src="/IMGs/olympia/4.png" alt="Tranding">
+                            </div>
+
+                        </div>
+                        <div class="imagen">
+                            <div class="imagen-kidu">
+                                <img src="/IMGs/olympia/olympia celular.png" alt="Perfil de instagram">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+
+                    <div class="swiper tranding-slider">
+
+                        <div class="swiper-wrapper">
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="/IMGs/olympia/20230402_121525.jpg" alt="Tranding">
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+
+                                <div class="tranding-slide-img">
+                                    <img src="/IMGs/olympia/20230912_093746.jpg" alt="Tranding">
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="/IMGs/olympia/20240119_145209-01.jpg" alt="Tranding">
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="IMGs/olympia/20240312_154453.jpg" alt="Tranding">
+                                </div>
+                            
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="IMGs/olympia/20240317_150822-01 (2).jpg" alt="Tranding">
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+                        
+                        </div>
+        
+                        <div class="tranding-slider-control">
+                            <div class="swiper-button-prev slider-arrow">
+                                <ion-icon name="arrow-back-outline"></ion-icon>
+                            </div>
+                            <div class="swiper-button-next slider-arrow">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h3 class="text-center-1 section-subheading">Desarrolladora</h3>
+            </div>
+
+            <div class="container">
+                <h1 class="text-center section-heading">Algunos proyectos</h1>
+            </div>
+
+            <div class="container">
+                                    
+                <div class="contenedor-proyecto">
+                    <a href="https://github.com/brendayw/Cajero-de-Supermercado" class="tarjeta-link">
+                        <button class="tarjeta boton app" style="background-image: url('ruta-de-la-imagen1.jpg');">
+                            <div class="contenido-app">
+                                <h4>Cajero de Supermercado</h4>
+                                
+                                <div class="tecnologias-usadas">
+                                    <p class="tecno">C++</p>
+                                    <p class="tecno">Manejo de archivos</p>
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+                
+                    <a href="https://github.com/brendayw/Sudoku-Solver" class="tarjeta-link">
+                        <button class="tarjeta boton app">
+                            <div class="contenido-app">
+                            
+                                <h4>Sudoku Solver</h4>
+                                
+                                <div class="tecnologias-usadas">
+                                    <p class="tecno">Java</p>
+                                    <p class="tecno">GUI</p>
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+        
+                    <button class="tarjeta boton app">
+                        <div class="contenido-app">
+                        
+                            <h4>Sitio web e-commerce</h4>
+
+                            <p>coming soon</p>
+                            
+                            <div class="tecnologias-usadas">
+                                <p class="tecno">HTML</p>
+                                <p class="tecno">CSS</p>
+                                <p class="tecno">JS</p>
+                            </div>
+                        </div>
+                    </button>
+
+                    <button class="tarjeta boton app">
+                        <div class="contenido-app">
+                        
+                            <h4>Turnero Medico</h4>
+                            <p>cooming soon</p>
+                            <div class="tecnologias-usadas">
+                                <p class="tecno">Python</p>
+                                <p class="tecno">Flask</p>
+                            </div>
+                        </div>
+                    </button>
+
+
+                </div>    
+            </div>
+        </section>
+
+        <br><br>
+
+        <section class="contenedor-contacto" id="contactme">
+            <div>
+                <h2>Trabajemos juntos! :)</h2>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Teléfono">
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50">Escribe tu mensaje aquí...
+                </textarea>
+                <input type="button" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer class="piedepagina">
+        <p>Todos los derechos reservados. Creada por @brendayw</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
